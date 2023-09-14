@@ -1,7 +1,11 @@
 {
-    "python.formatting.provider": "black",
-    "python.linting.flake8Enabled": true,
-    "python.linting.banditEnabled": true,
     "editor.formatOnSave": true,
-    "files.autoSave": "onFocusChange"
+    "files.autoSave": "onFocusChange",
+    "flake8.args": [
+        "--max-line-length=120",
+        "--extend-ignore=E203"
+    ],
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter"
+    }
 }

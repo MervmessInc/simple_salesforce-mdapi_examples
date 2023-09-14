@@ -27,7 +27,6 @@ custom_field_name = "Archive_Id"
 
 
 def main(sf: Salesforce):
-
     try:
         print("\n*** Update Objects ***\n")
         update_object(sf)

@@ -45,7 +45,6 @@ def build_field_permissions(sf: Salesforce, object_name: str):
 
 
 def update_permission_set(sf: Salesforce):
-
     custom_objects = []
     s_err = []
 

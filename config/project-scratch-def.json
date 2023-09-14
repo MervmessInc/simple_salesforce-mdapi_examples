@@ -1,0 +1,49 @@
+{
+  "orgName": "Merv Scratch Org",
+  "edition": "Developer",
+  "adminEmail": "crunchysquares@gmail.com",
+  "language": "en_US",
+  "country": "GB",
+  "description": "Salesforce Scratch Org",
+  "features": [
+    "DebugApex",
+    "EnableSetPasswordInApi",
+    "ForceComPlatform",
+    "PlatformCache",
+    "DevelopmentWave",
+    "ProcessBuilder",
+    "RecordTypes",
+    "Sites",
+    "Communities",
+    "AnalyticsAdminPerms",
+    "AnalyticsAppEmbedded"
+  ],
+  "settings": {
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "chatterSettings": {
+      "enableChatter": false
+    },
+    "languageSettings": {
+      "enableTranslationWorkbench": true
+    },
+    "securitySettings": {
+      "enableAdminLoginAsAnyUser": true,
+      "sessionSettings": {
+        "sessionTimeout": "TwoHours"
+      }
+    },
+    "communitiesSettings": {
+      "enableNetworksEnabled": true,
+      "enableOotbProfExtUserOpsEnable": true,
+      "enableUnsupportedBrowserModalPref": true
+    },
+    "experienceBundleSettings": {
+      "enableExperienceBundleMetadata": true
+    }
+  }
+}

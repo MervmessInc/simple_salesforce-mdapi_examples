@@ -121,7 +121,6 @@ def delete_custom_field(sf: Salesforce, object_name: str):
 
 
 def update_object(sf: Salesforce):
-
     custom_objects = []
     s_err = []
 

@@ -26,7 +26,6 @@ custom_field_name = "Archive_Id"
 
 
 def update(sf: Salesforce):
-
     custom_objects = []
     s_out = []
     s_err = []

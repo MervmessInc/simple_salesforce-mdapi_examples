@@ -1,0 +1,12 @@
+{
+    "recommendations": [
+        "njpwerner.autodocstring",
+        "aaron-bond.better-comments",
+        "ms-python.black-formatter",
+        "usernamehw.errorlens",
+        "ms-python.flake8",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "njqdev.vscode-python-typehint"
+    ]
+}

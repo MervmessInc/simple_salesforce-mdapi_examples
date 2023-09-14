@@ -24,7 +24,6 @@ custom_field_name = "IM_Config_Library_Id"
 
 
 def query(sf: Salesforce):
-
     custom_objects = []
     s_out = []
     s_err = []

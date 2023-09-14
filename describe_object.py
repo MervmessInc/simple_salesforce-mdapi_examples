@@ -24,7 +24,6 @@ exclude = ["fHCM2__", "fRecruit__"]
 
 
 def describe_object(sf: Salesforce):
-
     custom_objects = []
     s_err = []
     s_out = []
